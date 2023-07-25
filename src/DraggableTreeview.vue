@@ -2,7 +2,7 @@
   <draggable
     :value="localValue"
     :group="group"
-    class="v-treeview v-treeview-draggable"
+    class="v-treeview v-treeview-draggable yok"
     :class="themeClassName"
     ghost-class="ghost"
     @input="updateValue"
