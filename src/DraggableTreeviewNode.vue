@@ -1,7 +1,7 @@
 <template>
   <div
     :class="`v-treeview-node v-treeview-node--click ${
-      hasChildren ? '' : 'v-treeview-node--leaf'
+      hasChildren ? '' : 'v-treeview-node--leaf yok'
     }`"
   >
     <div class="v-treeview-node__root" @click="open = !open">
